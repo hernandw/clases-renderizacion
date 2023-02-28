@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(199, 224, 247);
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+   gap: 30px;
+   padding: 20px;
+    
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  form {
+    background-color: white;
+    padding: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  .form__datos {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulario {
+    width: 45%;
+  
+  }
+  .listado {
+    width: 45%;
+  }
+  
+  .button {
+    width: 100%;
+    background-color: #42db91;
+    padding: 5px;
+    border-radius: 10px;
+    
+  }
+  
+  /* LISTADO */
+  
+  .list__text {
+    font-weight: bold;
+  }
+  
+  span {
+    font-weight: normal;
+  }
+  
+  .listado__container {
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  margin-bottom: 15px;
+  }
+  
+  .error {
+    background-color: rgb(252, 6, 6);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  .btn {
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn1{
+    background-color: blue;
+    
+  }
+  
+  .btn2 {
+    background-color: crimson;
+  }
